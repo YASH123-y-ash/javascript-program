@@ -1,0 +1,12 @@
+let feet = 12;
+let inch = 42;
+let inchToFeet = inch/feet;
+console.log(inch +"inch is equal to "+ inchToFeet+"ft");
+let length = 60/3.281;
+console.log("length is "+length+ "meters");
+let breadth = 40/3.281;
+console.log("breadth is "+breadth+"meters");
+let area = length * breadth;
+console.log("area of rectangle is "+area+" sq metsers");
+let areaInAcres = (area/4047);
+console.log("area of 25 plots in acres is "+(25*areaInAcres)+"acres");
